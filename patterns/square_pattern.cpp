@@ -105,6 +105,7 @@ int main(){
 --------------------Output-------------------------------------
 Enter the number: 4
 Enter the number(for characters to print): 65
+
 1 2 3 4 
 1 2 3 4 
 1 2 3 4 
