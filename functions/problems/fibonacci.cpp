@@ -10,7 +10,7 @@ int fibonacci(int n){
     cout<<b<<endl;
 
     int i = 1;
-    while(i<=n){
+    while(i<=n-2){
         sum = a+b;
         cout<<sum<<endl;
 
@@ -46,8 +46,5 @@ Enter the number: 10
 13
 21
 34
-55
-89
-
 ------------------------------------------------------------------
 */
