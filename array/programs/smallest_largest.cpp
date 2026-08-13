@@ -9,20 +9,27 @@ int main(){
     }
 
     int greatest = num[0];
+    int index_max = 0;
     int smallest = num[0];
+    int index_min = 0;
     for(int i = 0; i<10;i++){
         if(num[i]>greatest){
             greatest = num[i];
+            index_max = i;
         }
 
         if(num[i]<smallest){
             smallest = num[i];
+            index_max = i;
         }
     }
 
 
     cout<<"The Greatest Number is = "<<greatest<<endl;
     cout<<"The Smallest Number is = "<<smallest<<endl;
+
+    cout<<"The Greatest Number's index is = "<<index_max<<endl;
+    cout<<"The Smallest Number's index is = "<<index_min<<endl;
     
     
 }
