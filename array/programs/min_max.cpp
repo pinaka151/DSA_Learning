@@ -40,6 +40,7 @@ int main(){
 Enter 10 numbers: 12 24 42 98 8 99 86 432 8 10
 The Greatest Number is = 432
 The Smallest Number is = 8
-
+The Greatest Number's index is = 7
+The Smallest Number's index is = 0
 ---------------------------------------------------------------
 */
