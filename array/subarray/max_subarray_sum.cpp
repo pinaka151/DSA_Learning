@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
    
-
+    // This is not effiecient method it's time complexity is  o(n^2) so we will use kadane's method which is very efficient whose time complexity is o(n)
     int arr[] = {2,3,5,7,8,5,3};
     int n = sizeof(arr)/sizeof(int); 
     
