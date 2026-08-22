@@ -4,17 +4,15 @@ using namespace std;
 
 int Majority_elem(vector <int> vect,int size){
     int count = 0;
-    int start =0;
+   
 
     for(int elem : vect){
 
-        for(int i = start; i<size;i++){
+        for(int i = 0; i<size;i++){
             if(vect[i]==elem){
                 count++;
             }
         }
-
-        start++;
 
         if(count>size/2){
             return elem;
