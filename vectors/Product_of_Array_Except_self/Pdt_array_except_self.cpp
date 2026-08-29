@@ -3,7 +3,7 @@
 using namespace std;
 
 // Brute Force Approach
-vector <int> pdtArray(vector<int> vect ,int size){
+vector <int> pdtArray(vector<int> &vect ,int size){
     vector<int> newArray;
     
     for(int i = 0; i<size;i++){
@@ -34,7 +34,7 @@ int  main(){
     }
     cout<<"]"<<endl;
 
-    
+
     return 0;
 }
 
