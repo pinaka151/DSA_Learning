@@ -26,13 +26,8 @@ int main(){
 /*
 ---------------Output-----------------------
 
-Address of variable a = 0x61ff08
-Address Stored in ptr of a = 0x61ff08
-Address Stored in ptr2 of ptr (pointer to pointer) = 0x61ff04
-10
-0x61ff08
-10
-0
+20
+30
 
 --------------------------------------------
 */
