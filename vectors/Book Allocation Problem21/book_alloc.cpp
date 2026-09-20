@@ -8,7 +8,7 @@ bool isValid(vector <int> &arr, int n, int  m, int maxAllowedPage){
         if(arr[i]>maxAllowedPage){
             return false;
         }
-        if(pages + arr[i]<=maxAllowedPage){
+        else if(pages + arr[i]<=maxAllowedPage){
             pages+=arr[i];
 
         }
