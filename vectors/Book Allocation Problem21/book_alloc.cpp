@@ -51,7 +51,7 @@ return ans;
 
 
 int main(){
-    vector<int> vect = {2,1,3,4};
+    vector<int> vect = {22,21,23,24};
     int n = 4;
     int m = 2;
 
