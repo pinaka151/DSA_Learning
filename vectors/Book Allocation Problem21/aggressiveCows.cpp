@@ -9,7 +9,7 @@ bool isValid(vector<int> vect ,int n, int cow, int mid){
 
     for(int i = 0; i<n;i++){
         if(vect[i]-lastPosition >=mid){
-                        cowsPlaced++;
+            cowsPlaced++;
             lastPosition = vect[i];
         }
         if(cowsPlaced == cow ){
